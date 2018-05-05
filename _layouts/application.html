@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css" | relative_url }}" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Poppins" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+  </head>
+
+  <body class="site">
+    <div class="container">
+        {% include header.html %}
+        <div id="main" role="main">
+            {{ content }}
+        </div>
+    </div>
+    <footer>
+    </footer>
+  </body>
+</html>
