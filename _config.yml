@@ -37,4 +37,4 @@ defaults:
       path: ""
       type: "cellos"
     values:
-      image:
+      images: []
