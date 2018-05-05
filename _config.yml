@@ -6,6 +6,8 @@ collections:
     title: Cellos
     output: true
     permalink: "/:collection/:name"
+    Image:
+    - 
   posts:
     title: Posts
     output: true
