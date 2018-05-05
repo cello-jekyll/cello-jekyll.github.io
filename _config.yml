@@ -38,3 +38,11 @@ defaults:
       type: "cellos"
     values:
       images: []
+      layout: "product"
+  -
+    scope:
+      path: ""
+      type: "violins"
+    values:
+      images: []
+      layout: "product"
