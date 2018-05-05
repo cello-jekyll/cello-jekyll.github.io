@@ -29,6 +29,6 @@ defaults:
   -
     scope:
       path: ""
-      type: ["cellos", "violins"]
+      type: "cellos"
     values:
       image:
