@@ -1,6 +1,6 @@
 ---
 title: Cellos
-permalink: "/cellos"
+permalink: "/cellos/"
 layout: category
 ---
 
