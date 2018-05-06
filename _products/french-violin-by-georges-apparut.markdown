@@ -5,6 +5,7 @@ categories:
 - violins
 images:
 - "/uploads/DSC_3744.jpeg"
+Category: Violins
 ---
 
 A fine French violin by Georges Apparut with JJ Rampal´s Certificate.
