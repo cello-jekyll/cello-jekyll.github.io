@@ -22,7 +22,7 @@ defaults:
   values:
     images: []
     layout: product
-    category:
+    Category:
 - scope:
     path: ''
     type: categories
