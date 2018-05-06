@@ -5,7 +5,7 @@ collections:
   products:
     title: Products
     output: true
-    permalink: "/:product_category/:name"
+    permalink: "/:collection/:name"
   product_categories:
     title: Product categories
     output: true
