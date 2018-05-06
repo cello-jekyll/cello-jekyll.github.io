@@ -7,7 +7,7 @@ layout: application
   <div class="entry">
     {{ content }}
   </div>
-  {% assign products = site.products | where: "categories", page.tag %}
+  {% assign products = site.products | where: "categories", page.category %}
   {% for product in products %}
     <a href="{{product.url}}">{{product.title}}</a>
   {%endfor%}

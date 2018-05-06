@@ -2,7 +2,7 @@
 title: Cellos
 layout: category
 permalink: "/cellos"
-tag: cellos
+category: cellos
 ---
 
 jaja
