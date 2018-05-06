@@ -3,4 +3,8 @@ title: Cellos
 layout: category
 ---
 
-yoyoyo
+{% assign cellos = site.products | where: "category", "cellos" %}
+
+{% for cello in cellos %}
+    {{ cello.title }}
+{%endfor%}

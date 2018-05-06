@@ -2,30 +2,20 @@
 title: Cello
 timezone: Europe/Stockholm
 collections:
-  cellos:
-    title: Cellos
+  products:
+    title: Products
     output: true
-    permalink: "/:collection/:name"
+    permalink: "/:categories/:name"
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-  violins:
-    title: Violins
-    output: true
-    permalink: "/:collection/:name"
 defaults:
 - scope:
     path: ''
-    type: cellos
-  values:
-    images: []
-    layout: product
-- scope:
-    path: ''
-    type: violins
+    type: products
   values:
     images: []
     layout: product
@@ -33,8 +23,8 @@ email: your-email@example.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl: 
-url: 
-twitter_username: 
-github_username: 
+baseurl:
+url:
+twitter_username:
+github_username:
 markdown: kramdown
