@@ -1,15 +1,8 @@
 <header>
     <div class="border"></div>
     <div class="logo">cello</div>
-    {% assign collection = site.products | group_by: "categories" %}
-    {% for group in collection %}
-      <h3>{{ group.name }}</h3>
-      <ul>
-        {% for item in group.items %}
-        <li>
-          <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {%endfor%}
-      </ul>
+    {% assign categories = site.pages | where: "layout", "category" %}
+    {% for category in categories %}
+      <a href="{{category.url}}">{{category.title}}</a>
     {%endfor%}
 </header>
