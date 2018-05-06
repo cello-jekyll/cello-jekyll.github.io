@@ -2,14 +2,18 @@
 title: Cello
 timezone: Europe/Stockholm
 collections:
-  products:
-    title: Products
+  posts:
+    title: Posts
     output: true
     permalink: "/:collection/:name"
   types:
     title: Product categories
     output: true
     permalink: "/:name"
+  products:
+    title: Products
+    output: true
+    permalink: "/:collection/:name"
   uploads:
     title: Uploads
     output: true
