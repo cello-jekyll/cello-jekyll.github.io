@@ -6,7 +6,7 @@ collections:
     title: Products
     output: true
     permalink: "/:collection/:name"
-  product_categories:
+  types:
     title: Product categories
     output: true
     permalink: "/:name"
