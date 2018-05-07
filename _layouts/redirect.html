@@ -1,0 +1,6 @@
+{% assign locale = page.redirect.from | replace: '/', ' ' | truncatewords: 1, "" }
+{% assign p = site.pages | where: "name", "about.md" %}
+{% for page in site.pages %}
+  <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+  <p>{{ page.contents[locale] }}</p>
+{% endfor %}
