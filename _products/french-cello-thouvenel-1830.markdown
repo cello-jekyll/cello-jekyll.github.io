@@ -1,8 +1,6 @@
 ---
 title: French cello Thouvenel 1830
 date: 2018-05-06 10:26:00 +02:00
-categories:
-- cellos
 images:
 - "/uploads/thouvenel%20(1).jpeg"
 ---
