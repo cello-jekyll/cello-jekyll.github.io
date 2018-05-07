@@ -8,4 +8,4 @@ images:
 Category: Violins
 ---
 
-A fine French violin by Georges Apparut with JJ Rampal´s Certificate.
+A fine French violin by Georges Apparut with JJ Rampal´s Certificate..
