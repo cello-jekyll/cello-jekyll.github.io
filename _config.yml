@@ -1,6 +1,7 @@
 ---
 title: Cello
 timezone: Europe/Stockholm
+repository: cello-jekyll/cello-jekyll.github.io
 collections:
   categories:
     title: Categories
