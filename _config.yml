@@ -19,8 +19,8 @@ defaults:
     path: ''
     type: products
   values:
-    Swedish title:
-    Swedish description:
+    Swedish title: 
+    Swedish description: 
     images: []
     Category: 
     layout: product
@@ -28,8 +28,8 @@ defaults:
     path: ''
     type: categories
   values:
-    Swedish title:
-    Swedish description:
+    Swedish title: 
+    Swedish description: 
     image: 
     layout: category
 repository: cello-jekyll/cello-jekyll.github.io
