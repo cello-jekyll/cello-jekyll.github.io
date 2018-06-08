@@ -1,6 +1,5 @@
 ---
 title: About
-layout: page
 redirect_from:
 - "/en/about"
 - "/sv/about"
@@ -10,5 +9,7 @@ contents:
 titles:
   sv: Om oss
   en: About us
+layout: page
 ---
 
+About!
