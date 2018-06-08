@@ -12,7 +12,6 @@ collections:
   products:
     title: Products
     output: true
-    permalink: "/:categories/:name"
   uploads:
     title: Uploads
     output: true

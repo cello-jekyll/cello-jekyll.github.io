@@ -1,14 +1,7 @@
 ---
 title: About
-redirect_from:
-- "/en/about"
-- "/sv/about"
-contents:
-  sv: Om cello.se
-  en: About cello.se
-titles:
-  sv: Om oss
-  en: About us
+title_sv: Om oss
+body_sv: Om oss på cello.se
 layout: page
 ---
 
