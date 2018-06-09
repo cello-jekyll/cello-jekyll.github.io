@@ -13,7 +13,7 @@ collections:
     output: true
 defaults:
 - scope:
-    path: 
+    path: ''
     type: products
   values:
     Swedish title: 
