@@ -13,21 +13,16 @@ collections:
     output: true
 defaults:
 - scope:
-    path: _products/*/
     type: products
-  values:
-    Swedish title:
-    Swedish description:
-    images: []
-    layout: product
-- scope:
-    path: _products
-    type: categories
   values:
     Swedish title:
     Swedish description:
     image:
     layout: category
+- scope:
+    path: _products/*/*
+  values:
+    layout: product
 repository: cello-jekyll/cello-jekyll.github.io
 email: otto.nordgren@gmail.com
 description: Write an awesome description for your new site here. You can edit this
