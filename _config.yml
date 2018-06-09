@@ -2,6 +2,9 @@
 title: Cello
 timezone: Europe/Stockholm
 collections:
+  posts:
+    title: Posts
+    output: true
   products:
     title: Products
     output: true
@@ -10,27 +13,27 @@ collections:
     output: true
 defaults:
 - scope:
-    path: 'products/*/'
+    path: products/*/
     type: products
   values:
-    Swedish title:
-    Swedish description:
+    Swedish title: 
+    Swedish description: 
     images: []
     layout: product
 - scope:
-    path: 'products'
+    path: products
     type: categories
   values:
-    Swedish title:
-    Swedish description:
-    image:
+    Swedish title: 
+    Swedish description: 
+    image: 
     layout: category
 repository: cello-jekyll/cello-jekyll.github.io
 email: otto.nordgren@gmail.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl:
-url:
+baseurl: 
+url: 
 markdown: kramdown
-plugins:
+plugins: 
