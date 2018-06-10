@@ -8,7 +8,7 @@ collections:
   products:
     title: Products
     output: true
-    permalink: "/:title"
+    permalink: "/:path"
   uploads:
     title: Uploads
     output: true
