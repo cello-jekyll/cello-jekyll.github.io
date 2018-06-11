@@ -53,7 +53,6 @@ fields:
   hidden: false
   default: 
 pages:
-- _products/violins/vio-2.md
 - _products/violins.markdown
 - _products/cellos.markdown
 - _products/violins/french-violin-by-georges-apparut.markdown
